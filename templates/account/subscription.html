@@ -22,14 +22,14 @@
       <div class="form-group">
         {{ form.email }}
       </div>
-      <button type="submit" class="btn btn-primary btn-block">Keep Me Informed</button>
-    </form>
-    <form id="subscribeForm" method="post" novalidate>{% csrf_token %}
+      <button type="submit" class="btn btn-primary btn-block">Keep Me Informed</button><br/>
       <div class="form-group">
-        {{ form.firstNmae }}
+        {{ form.first_name }}
+      </div><br/>
+      <div class="form-group">
+        {{ form.last_name }}
       </div>
     </form>
-
 
   </div>
 
